@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Key Changes: CT DPH Technical Standards for Subsurface Sewage Disposal Systems — 2024 vs September 1, 2026</title>
+<style>
+  @page { size: Letter; margin: 0; }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Liberation Serif", "Times New Roman", Times, serif;
+    font-size: 10.4pt;
+    line-height: 1.36;
+    color: #1a2332;
+    background: #fff;
+  }
+
+  .page {
+    width: auto;
+    padding: 0;
+    page-break-after: auto;
+    position: relative;
+  }
+
+  .callout {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  tr { page-break-inside: avoid; break-inside: avoid; }
+
+  h2 { page-break-before: auto; break-before: auto; }
+
+  /* Cover */
+  .cover {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    min-height: 9.7in;
+    page-break-after: always;
+    break-after: page;
+  }
+  .cover-bar {
+    background: #0b3d2e;
+    height: 0.28in;
+    width: 100%;
+  }
+  .cover-inner {
+    padding: 0.35in 0.05in 0.25in 0.05in;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .kicker {
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    font-size: 8.5pt;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #c4a35a;
+    font-weight: 700;
+    margin: 0 0 0.18in 0;
+  }
+  h1.cover-title {
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    font-size: 26pt;
+    line-height: 1.15;
+    color: #0b3d2e;
+    margin: 0 0 0.18in 0;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .cover-sub {
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    font-size: 12.5pt;
+    color: #3d4f46;
+    margin: 0 0 0.35in 0;
+    max-width: 6.4in;
+  }
+  .meta-grid {
+    display: grid;
+    grid-template-columns: 1.6in 1fr;
+    gap: 0.08in 0.2in;
+    border-top: 2px solid #0b3d2e;
+    border-bottom: 1px solid #c9d4cc;
+    padding: 0.18in 0;
+    margin-bottom: 0.35in;
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    font-size: 9.5pt;
+  }
+  .meta-grid dt { color: #5a6b63; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; font-size: 8pt; }
+  .meta-grid dd { margin: 0; color: #1a2332; }
+
+  .callout {
+    background: #f4f7f4;
+    border-left: 4px solid #0b3d2e;
+    padding: 0.16in 0.2in;
+    margin: 0 0 0.28in 0;
+  }
+  .callout p { margin: 0 0 0.08in 0; }
+  .callout p:last-child { margin: 0; }
+  .callout strong { color: #0b3d2e; }
+
+  .toc h2 {
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #0b3d2e;
+    margin: 0.15in 0 0.12in 0;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .toc ol {
+    margin: 0;
+    padding: 0 0 0 0.22in;
+  }
+  .toc li {
+    margin: 0.05in 0;
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    font-size: 10.5pt;
+  }
+
+  .disclaimer {
+    margin-top: auto;
+    font-size: 8.5pt;
+    color: #4a5560;
+    border-top: 1px solid #c9d4cc;
+    border-bottom: 8px solid #0b3d2e;
+    padding-top: 0.14in;
+    padding-bottom: 0.16in;
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+  }
+
+  /* Body */
+  h2 {
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    font-size: 13.5pt;
+    color: #0b3d2e;
+    margin: 0 0 0.12in 0;
+    padding-bottom: 0.06in;
+    border-bottom: 2px solid #0b3d2e;
+    page-break-after: avoid;
+  }
+  h3 {
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    color: #1e5a45;
+    margin: 0.16in 0 0.07in 0;
+    page-break-after: avoid;
+  }
+  h4 {
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    font-size: 10.5pt;
+    color: #2a3a32;
+    margin: 0.12in 0 0.05in 0;
+    page-break-after: avoid;
+  }
+  p { margin: 0 0 0.09in 0; }
+  ul, ol { margin: 0 0 0.1in 0.18in; padding: 0 0 0 0.12in; }
+  li { margin: 0.03in 0; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.08in 0 0.16in 0;
+    font-size: 9.4pt;
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    page-break-inside: avoid;
+  }
+  th {
+    background: #0b3d2e;
+    color: #fff;
+    text-align: left;
+    padding: 0.06in 0.08in;
+    font-weight: 700;
+    font-size: 8.4pt;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  td {
+    padding: 0.055in 0.08in;
+    border-bottom: 1px solid #d5ddd8;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: #f4f7f4; }
+  td.chg { font-weight: 700; color: #8a3b12; }
+  .note {
+    font-size: 9pt;
+    color: #4a5560;
+    font-style: italic;
+    margin: -0.06in 0 0.12in 0;
+  }
+
+  .box {
+    border: 1px solid #b7c7bd;
+    background: #fafcfb;
+    padding: 0.12in 0.16in;
+    margin: 0.08in 0 0.14in 0;
+    page-break-inside: avoid;
+  }
+  .box h4 { margin-top: 0; }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.16in;
+    margin: 0.08in 0 0.14in 0;
+  }
+
+  .src {
+    font-size: 8.5pt;
+    color: #4a5560;
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+  }
+  a { color: #0b3d2e; }
+
+  .footer-note {
+    font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: #6b7780;
+    margin-top: 0.18in;
+    border-top: 1px solid #d5ddd8;
+    padding-top: 0.08in;
+  }
+
+  .hl { background: #fff3d6; padding: 0 0.04em; }
+  code, .mono {
+    font-family: "Liberation Mono", "Courier New", monospace;
+    font-size: 9pt;
+  }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<section class="page cover">
+  <div class="cover-bar"></div>
+  <div class="cover-inner">
+    <p class="kicker">Connecticut Department of Public Health · Environmental Engineering Program</p>
+    <h1 class="cover-title">Key Changes between the 2024 and 2026 Technical Standards for Subsurface Sewage Disposal Systems</h1>
+    <p class="cover-sub">A practitioner briefing on the September&nbsp;1, 2026 revision of Connecticut’s Technical Standards (SSDS), compared with the 2024 version.</p>
+
+    <dl class="meta-grid">
+      <dt>Effective date</dt>
+      <dd>September 1, 2026</dd>
+      <dt>Prior version</dt>
+      <dd>Technical Standards, revised 2024</dd>
+      <dt>Authority</dt>
+      <dd>PHC §§ 19-13-B100a and 19-13-B103a–h; C.G.S. § 22a-430(g); Public Act 26-142</dd>
+      <dt>Document type</dt>
+      <dd>Unofficial comparison summary for designers, installers, and local health</dd>
+      <dt>Prepared</dt>
+      <dd>September 10, 2026</dd>
+    </dl>
+
+    <div class="callout">
+      <p><strong>Headline change.</strong> Large subsurface sewage disposal systems are redefined from 2,000–7,500 GPD to <strong>2,000–10,000 GPD</strong>. Local Directors of Health now permit systems through 10,000 GPD; DPH continues to approve large-system plans in the 2,000–10,000 GPD band; CT DEEP jurisdiction begins above 10,000 GPD.</p>
+    </div>
+
+    <div class="toc">
+      <h2>Contents</h2>
+      <ol>
+        <li>Jurisdiction and “large SSDS” threshold</li>
+        <li>New sections (SSEO, leaching sizing, MLSS, nitrogen)</li>
+        <li>Design-flow and septic-tank changes</li>
+        <li>Leaching systems, select fill, and rejuvenation</li>
+        <li>Location, exceptions, and central systems</li>
+        <li>Holding tanks, composting toilets, and WTW</li>
+        <li>Document structure, forms, and appendices</li>
+        <li>Official source documents</li>
+      </ol>
+    </div>
+
+    <p class="disclaimer">
+      This briefing is an unofficial synthesis of Connecticut DPH’s <em>Summary of Changes and Revisions</em> (September 1, 2026) and the 2026 Technical Standards PDF. It is not a substitute for the Public Health Code or the Technical Standards. Always cite the official documents when designing, reviewing, or permitting a system. Where this summary and the official text differ, the official text controls.
+    </p>
+  </div>
+</section>
+
+<!-- 1 -->
+<section class="page">
+  <h2>1. Jurisdiction and “large SSDS” threshold</h2>
+  <p>This is the controlling policy change. It implements the statutory increase in household/small-commercial/small-community system capacity from 7,500 to 10,000 gallons per day under C.G.S. §&nbsp;22a-430(g).</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width:38%">Item</th>
+        <th style="width:31%">2024 Technical Standards</th>
+        <th style="width:31%">2026 Technical Standards</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Large SSDS definition</td>
+        <td>2,000–<strong>7,500</strong> GPD</td>
+        <td class="chg">2,000–<strong>10,000</strong> GPD</td>
+      </tr>
+      <tr>
+        <td>Permitted by Local Director of Health</td>
+        <td>≤ 7,500 GPD</td>
+        <td class="chg">≤ 10,000 GPD</td>
+      </tr>
+      <tr>
+        <td>Large-system plans approved by CT DPH</td>
+        <td>2,000–7,500 GPD</td>
+        <td class="chg">2,000–10,000 GPD</td>
+      </tr>
+      <tr>
+        <td>Permitted by CT DEEP</td>
+        <td>> 7,500 GPD</td>
+        <td class="chg">> 10,000 GPD</td>
+      </tr>
+      <tr>
+        <td>Water-usage monitoring (large flows)</td>
+        <td>Tied to former large-SSDS band</td>
+        <td class="chg">Applies to 2,000–10,000 GPD. Each SSDS serving a building must be metered separately; whole-building monitoring is not acceptable when two or more systems serve the same building.</td>
+      </tr>
+      <tr>
+        <td>WTW discharge permit from local DOH</td>
+        <td>Prior large-system cap</td>
+        <td class="chg">Lots with SSDS cumulative design flow up to 10,000 GPD (PHC § 19-13-B103g)</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="note">The 2026 definition: “Large subsurface sewage disposal system” means an SSDS serving a building or buildings with a design sewage flow of 2,000 gallons per day or greater.</p>
+
+  <h3>Standalone document</h3>
+  <p>The 2026 Technical Standards no longer reprint Public Health Code sections 19-13-B100a and 19-13-B103a–f at the front of the book. Regulations are on the eRegs portal; Forms 1–4 are downloadable Word/Excel files on the Environmental Engineering Program webpage. The 2024 book bundled regulations, forms, and standards in one PDF.</p>
+</section>
+
+<!-- 2 -->
+<section class="page">
+  <h2>2. New sections (not in the 2024 book)</h2>
+
+  <h3>Section 3 — Subsurface Sewage Enforcement Officer</h3>
+  <p>The local director of health may authorize an individual to investigate, inspect, and approve SSDS plans if the person holds current Phase I or Phase II SSEO certification, or is approved as an agent of local health under section 21 of Public Act 26-142 until <strong>October 1, 2027</strong>. No SSEO may enforce without that authorization. Directors must keep records of authorizations. Throughout the document, “Registered Sanitarian” is replaced with <strong>Registered Environmental Health Specialist (REHS)</strong>.</p>
+
+  <h3>Section 12 — Leaching System Sizing</h3>
+  <p>Effective leaching area (ELA) content and Tables 6–8 moved out of old Section VIII(F) into a dedicated section. Additional residential criteria:</p>
+  <ul>
+    <li><strong>(e)</strong> Small community sewerage systems shall use <em>multi-family</em> criteria for ELA calculations for bedrooms above 3.</li>
+    <li><strong>(f)</strong> Single-family / multi-family criteria shall not be applied until after the third bedroom for any individual SSDS.</li>
+  </ul>
+
+  <h3>Section 13 — Minimum Leaching System Spread (MLSS)</h3>
+  <p>MLSS moved from Appendix A into the body of the Standards. Old Categories I–III are renamed:</p>
+  <table>
+    <thead>
+      <tr><th>2024</th><th>2026</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Category I</td><td>13.4.1 SSDS layouts for new lot creations</td></tr>
+      <tr><td>Category II</td><td>13.4.2 New SSDSs, MLSS-compliant repairs, and conceptual B100a areas (code-complying and potential repair areas)</td></tr>
+      <tr><td>Category III</td><td>13.4.3 MLSS non-compliant repairs and B100a MLSS non-compliant potential repair areas</td></tr>
+    </tbody>
+  </table>
+  <p>If there are less than 18 inches of naturally occurring receiving soil, or the leaching system cannot meet MLSS or hydraulic analysis, a Director of Health exception is required and a non-compliant repair (NCR) MLSS assessment shall be conducted. The Permit to Discharge must state that the system is non-compliant relative to MLSS and that an exception has been granted. Sites with receiving-soil depth < 18 inches require a P.E. hydraulic analysis.</p>
+
+  <h3>Section 14 — Nitrogen (entirely new)</h3>
+  <p>Any nitrogen assessment required by PHC §§ 19-13-B103d(d)(3)(F) and 19-13-B100a shall follow this section. A compliant sewage-effluent nitrogen concentration is <strong>no greater than 10 mg/L</strong>.</p>
+  <ul>
+    <li><strong>Nitrogen-sensitive areas</strong> (per PHC § 19-13-B103): coastal boundary areas, and within <strong>125 feet</strong> of inland-wetland upland review areas. If any system on the lot is in a sensitive area, <em>all</em> systems on the lot are evaluated with the full Nitrogen Dilution Model (14.3.2).</li>
+    <li><strong>14.3.1 Simplified Nitrogen Dilution Model</strong> — for systems 7,500–10,000 GPD that are <em>not</em> in a nitrogen-sensitive area. Inputs: lot size (sf), average annual precipitation, average daily cumulative design flow. Residential average daily flow is ⅔ of Section 7.1 design flow: 100 GPD per bedroom for the first 3; 50 GPD per additional bedroom (single-family); 83.3 GPD per additional bedroom (multi-family, outbuildings, accessory apartments). Development beyond <strong>1,635 GPD per acre</strong> is non-compliant under the simplified model (assumes 60% TN treated by dilution, 60% precipitation infiltration, 40 mg/L wastewater N, 48 inches annual precipitation).</li>
+    <li><strong>14.3.2 Nitrogen Dilution Model</strong> — for systems 5,000–10,000 GPD that <em>are</em> in a nitrogen-sensitive area, using Section X, Subsection G of DEEP’s <em>Guidance for Design of Large-Scale On-Site Wastewater Renovation Systems</em> (Jacobson, 2006).</li>
+  </ul>
+</section>
+
+<!-- 3 -->
+<section class="page">
+  <h2>3. Design-flow and septic-tank changes</h2>
+
+  <h3>3.1 Residential design flows (Section 7.1)</h3>
+  <p>Design flows for residential buildings are based on the <strong>total number of bedrooms on the property</strong>. New language covers small community systems. Beyond three bedrooms:</p>
+  <ul>
+    <li>Single-family: 75 GPD per bedroom (same structure as before).</li>
+    <li class="chg">Multi-family residential, bedrooms in separate multi-family buildings on the same property, residential outbuildings, and internal/attached accessory apartments: <strong>125 GPD per bedroom</strong>.</li>
+  </ul>
+  <p><strong>New definition — “Multi-family.”</strong> For SSDS design (sections 10 and 11), one or more residential buildings that contain two or more distinct housing units, multiple single-family dwellings, or any combination thereof on the same property. Includes a single-family dwelling with an internal accessory apartment or a detached accessory apartment served by a central system.</p>
+
+  <h3>3.2 Table 4 — Non-residential and residential institution design flows</h3>
+  <ul>
+    <li>All “large SSDS” references updated to 2,000–10,000 GPD.</li>
+    <li>Restaurants and retail food establishments equated; <strong>all restaurant flows are 30 GPD</strong> regardless of public toilets. The old “restaurants with no public toilets” line is eliminated.</li>
+    <li>Church / religious social events serving meals: <strong>10 GPD/person</strong>.</li>
+    <li><strong>New category — Banquet facilities / gathering venues:</strong> 5 GPD/seat using Table 8 application rate, plus Table 7 additional flows for bar/drink service, on-site food preparation, and glassware/tableware washing.</li>
+    <li><strong>New — Horse stables:</strong> 50 GPD/stall. Tennis-court categories now include pickleball.</li>
+    <li>Metcalf & Eddy citation removed. Medium-strength flows: use Table 7 application rates for a conservative design.</li>
+  </ul>
+
+  <h3>3.3 Table 5 — Residential septic tank sizing</h3>
+  <p>Multi-family increment is reduced, and a new row is added for bedrooms above 15.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Number of bedrooms</th>
+        <th>Single-family</th>
+        <th>Multi-family (2024)</th>
+        <th>Multi-family (2026)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1–3 bedrooms</td>
+        <td>1,000 gallons</td>
+        <td>1,250 gallons</td>
+        <td>1,250 gallons</td>
+      </tr>
+      <tr>
+        <td>Each bedroom above 3</td>
+        <td>Add 125 gal</td>
+        <td>Add <strong>250</strong> gal</td>
+        <td class="chg">Add <strong>225</strong> gal</td>
+      </tr>
+      <tr>
+        <td>Each bedroom above 15</td>
+        <td>Add 125 gal</td>
+        <td>(same as above 3)</td>
+        <td class="chg">Add <strong>150</strong> gal (new row)</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>Central SSDS serving a single-family dwelling plus an outbuilding with potential bedroom(s): size the tank on single-family criteria for the main dwelling, plus <strong>225 gallons for each bedroom in the outbuilding</strong>.</p>
+  <p>Non-residential / residential institution tanks: minimum 1,000 gallons or the Section 7 design flow, whichever is greater (unchanged concept). For establishments with daily design flow of 2,000 GPD or greater, the two required grease interceptor tanks in series should be of <strong>similar size</strong>.</p>
+
+  <h3>3.4 Multiple tanks in series (new 8.1.5)</h3>
+  <p>Required capacity may be obtained with up to three tanks in series, provided:</p>
+  <ol>
+    <li>Each tank in series is single-compartment.</li>
+    <li>Minimum volumes of the first and second tanks are ⅔ and ⅓ of required capacity, respectively.</li>
+    <li>If the required capacity of the first tank exceeds 5,000 gallons, the first tank may be reduced to no less than <strong>50% of design flow</strong>.</li>
+    <li>Design flow must be provided within the first two tanks; additional tank(s) may make up Table 5 capacity.</li>
+    <li>Mid-depth baffles at tank connections.</li>
+    <li>Effluent filter on the outlet of the last tank.</li>
+  </ol>
+  <p>Non-concrete tanks shall meet the <strong>IAPMO/ANSI Prefabricated Septic Tank Standard</strong>, unless otherwise approved by the Commissioner. H-20 wheel loading is defined as a two-axle truck with a vehicle weight of 20 tons (CT DOT). All newly installed tanks shall have an approved non-bypass effluent filter rated for the design flow, with a minimum of <strong>45 square inches</strong> of total opening area. Tank cleaning, maintenance, and prescriptive reporting expectations are outlined in the 2026 version.</p>
+</section>
+
+<!-- 4 -->
+<section class="page">
+  <h2>4. Leaching systems, select fill, and rejuvenation</h2>
+  <p>Section 11 is restructured with more explicit material specifications and submittal requirements. Air-injection / enhancement language moved here from old Section VI.</p>
+
+  <h3>Product and sizing rules</h3>
+  <ul>
+    <li><strong>Removed:</strong> the restriction on high-ELA leaching products (e.g., 7.4 SF/LF) in receiving soils with a percolation rate slower than 30 minutes per inch.</li>
+    <li><strong>Reserve area (11.1.5):</strong> a reserve leaching area exists during construction and <em>does not need to be maintained beyond issuance of the Permit to Discharge</em>. Reserve areas are still recommended to comply with MLSS.</li>
+    <li>Large SSDSs shall provide a minimum <strong>24 inches</strong> of separation above maximum groundwater.</li>
+    <li>PPD now means <strong>proprietary pressure-dosed dispersal system</strong> (was a less specific acronym). Commissioner may approve PPD systems; sizing is correlated to an equivalent conventional 3-foot-wide leaching trench.</li>
+  </ul>
+
+  <h3>Select fill and cover</h3>
+  <ul>
+    <li>11.1.12.1 — ASTM C-33 (Limits for Fine Aggregates) specification table added for washed sieve.</li>
+    <li>11.1.12.3 — added detail on select-fill placement while preparing the leaching-system area. Sieve testing of select fill is required for large SSDSs whenever the leaching system is located entirely in select fill. Select fill exceeding 6% passing the #200 sieve (wet sieve) shall not be approved by the design P.E.</li>
+    <li>11.1.13 — added detail on grading and cover over the entire SSDS.</li>
+    <li>11.1.3 — new language on naturally occurring soil.</li>
+  </ul>
+
+  <h3>Eljen table corrections</h3>
+  <ul>
+    <li>“Mantis Yard Filter” renamed to “Yard Filter.”</li>
+    <li>Product name corrected from Yard Filter 59 to <strong>Yard Filter 95</strong>.</li>
+    <li>Center-to-center spacing for Yard Filter 50 corrected from 12 feet to <strong>9 feet</strong>.</li>
+  </ul>
+  <p>Proprietary product tables are reorganized under individual product subsections (including Cur-Tech, Geomatrix GeoMat Edge / GeoU / S-Box, etc.).</p>
+
+  <h3>11.7 Soil Air (Geomatrix) — leaching-system enhancement / rejuvenation</h3>
+  <p>The patented Soil Air System may be used on new SSDSs as part of the approved plan, or on existing SSDSs that are not at risk of hydraulically overloading the receiving soil and that provide required separation above ledge rock and maximum groundwater. Use on an existing SSDS requires a DOH repair permit. Not allowed on cesspools or on leaching systems providing less than <strong>50% of required ELA</strong>, unless expansion is not feasible. Large SSDSs require engineered plans submitted to the Commissioner. A standard tee baffle may replace the effluent filter only if jointly proposed by Geomatrix and the designer and approved by the DOH; the filter shall be reinstalled if Soil Air is removed. The Permit to Discharge must require written notice to the DOH before removal or termination of the Soil Air System.</p>
+
+  <h3>11.8 EarthBuster and Terra-Lift — clogging break-up</h3>
+  <p>Separate patented air-injection processes intended to rejuvenate an existing leaching system’s soil interface. Allowed only on systems that provide required separation above ledge and maximum groundwater, and that historically operated satisfactorily but have declining capacity from infiltrative-surface clogging. Injection depth shall not exceed the leaching-system bottom; locations no closer than <strong>2 feet</strong> horizontally to the sidewall. Requires a new or repair permit from the DOH. Repair plan by an installer or P.E. identifying the existing system and a code-complying (or potential repair) area.</p>
+</section>
+
+<!-- 5 -->
+<section class="page">
+  <h2>5. Location, exceptions, and central systems</h2>
+
+  <h3>Table 1 — separating distances</h3>
+  <ul>
+    <li>New disclaimer: distances are <strong>horizontal measurements</strong>, except non-vertical closed-loop geothermal boreholes (measured from the closest point of the borehole).</li>
+    <li>Cesspools use the same Table 1 distances as leaching systems.</li>
+    <li>Item N (Accessory Structures) excludes above- and below-ground pools, consistent with the updated accessory-structure definition (pools are now included in “accessory structure”).</li>
+    <li>“Record plan” is renamed <strong>as-built plan</strong> to match the revised regulations.</li>
+    <li>Stormwater infiltration systems (SWIS) now cite PHC § 19-13-B103g(c) instead of 19-13-B100a(e).</li>
+    <li>Groundwater control drains need only comply with Table 1 Items E and G.</li>
+  </ul>
+
+  <h3>New / expanded Commissioner exceptions (Section 5.4)</h3>
+  <ul>
+    <li><strong>5.4.1 Small community systems.</strong> Minimum submittal criteria. Requests shall not be approved to connect a new building to an existing SSDS that is not compliant with PHC §§ 19-13-B100a or 19-13-B103.</li>
+    <li><strong>5.4.2 Off-site SSDS / easements.</strong> Design plan must delineate the easement area. Easement boundaries are equivalent to Table 1 property-line setbacks.</li>
+    <li><strong>5.4.3 Water-supply well separating-distance exceptions.</strong> Minimum criteria for exception applications.</li>
+  </ul>
+
+  <h3>Central systems (new standalone 5.8)</h3>
+  <p>Local-health central-system approval criteria, including existing-system evaluations. <strong>Prohibited:</strong> tying into cesspools, steel tanks, or failed/malfunctioning SSDSs.</p>
+
+  <h3>Unused system abandonment (5.7)</h3>
+  <p>Retitled from “System Abandonment.” Ties DOH authority to order abandonment of an unused SSDS, any hollow component, or a cesspool to PHC § 19-13-B103e(g)(4). Repurposed structures must be shown on a plot plan and noted in the property file.</p>
+
+  <h3>Definitions (Section 4)</h3>
+  <p>Duplicate terms already defined in B100a and B103 were removed. Remaining Technical Standards definitions may include supplemental technical detail and are not intended to conflict with the PHC or PA 26-142. Section is alphabetized. “Department” is now “Commissioner.”</p>
+  <table>
+    <thead><tr><th>Term</th><th>2026 change</th></tr></thead>
+    <tbody>
+      <tr><td>Large SSDS</td><td>New. Design sewage flow of 2,000 GPD or greater.</td></tr>
+      <tr><td>Multi-family</td><td>New. Two or more units, multiple SFDs on one lot, or SFD with accessory apartment on a central system.</td></tr>
+      <tr><td>Sewage tank</td><td>New. Septic tank, grease interceptor tank, pump chamber, or sewage holding tank.</td></tr>
+      <tr><td>Accessory structure</td><td>Same meaning as PHC 19-13-B100a(a); now includes above- and below-ground pools.</td></tr>
+      <tr><td>Bedroom</td><td>“Archways” removed from the definition.</td></tr>
+      <tr><td>Foundation drain</td><td>Interchangeable with “footing drain.”</td></tr>
+      <tr><td>Secondary safety lid</td><td>Renamed <strong>secondary safety device</strong> (sewage-tank access safety device in a riser).</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- 6 -->
+<section class="page">
+  <h2>6. Holding tanks, composting toilets, and water treatment wastewater</h2>
+
+  <h3>Non-discharging systems (Section 17)</h3>
+  <p>New 17.1 general overview of application and approval. Systems that local health must refer to DPH for additional review:</p>
+  <ul>
+    <li>Composting toilets</li>
+    <li>Incineration toilets other than those permitted under local director of health approval</li>
+    <li>Chemical toilets inside a building</li>
+    <li>Sewage holding tanks</li>
+  </ul>
+  <p><strong>Large-capacity composting toilets</strong> are those with interior volume of <strong>64 cubic feet or greater</strong>. A code-complying area must exist on the lot, or shall be installed on a new lot, for DPH approval.</p>
+  <p><strong>Sewage holding tanks</strong> — recommendations added for sizing and high-level alarms. Holding tanks are <strong>prohibited for new lots and for intensification of use on existing developed lots</strong>.</p>
+
+  <h3>Water treatment wastewater (Section 16)</h3>
+  <p>Reorganized and tied to new PHC § 19-13-B103g. WTW discharges on lots with an SSDS cumulative design flow of up to <strong>10,000 GPD</strong> require a WTW discharge permit from the local Director of Health. Appendix D (formerly Appendix E) still covers WTW discharges to SSDSs.</p>
+
+  <h3>Piping (Section 6)</h3>
+  <p>Mostly organizational. “Drains and Water Supply Piping” split into 6.4 Floor Drains, 6.5 Groundwater and Surface Water Drainage Piping, and 6.6 Water Supply Piping. The “use” column was removed from Tables 2, 2-A, 2-B, and 3; that content is now a numbered list of requirements above each table.</p>
+
+  <h3>Percolation tests (Section 10)</h3>
+  <p>Restructured into 10.1 General, 10.1.1 Placement, 10.1.2 Procedures, and 10.1.3 Leaching System Constructed Entirely in Select Fill. Using a percolation rate faster than 10.1 min/in may be problematic if select-fill perc is slower.</p>
+</section>
+
+<!-- 7 -->
+<section class="page">
+  <h2>7. Document structure, forms, and appendices</h2>
+  <p>The 2024 Roman-numeral sections (I–XI plus Appendix A MLSS) are replaced with numbered hierarchical sections (1, 1.1, 1.1.1, 1.1.1.1). Figures are renumbered (prior editions had no Figure 3). A Table of Figures and Table of Tables were added.</p>
+
+  <table>
+    <thead>
+      <tr><th>2026 section</th><th>2024 equivalent</th><th>Nature of change</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1. Scope, usage guide, formatting</td><td>—</td><td>New. Proprietary-product disclaimer; navigation guide.</td></tr>
+      <tr><td>2. Acronyms and abbreviations</td><td>List at front</td><td>Adds BOD<sub>5</sub>, DOT, IAPMO, NSF; large SSDS 2,000–10,000 GPD; PPD = proprietary pressure-dosed dispersal.</td></tr>
+      <tr><td>3. Subsurface Sewage Enforcement Officer</td><td>—</td><td>New.</td></tr>
+      <tr><td>4. Definitions</td><td>I</td><td>Duplicates removed; new/revised terms.</td></tr>
+      <tr><td>5. Location of sewage systems</td><td>II</td><td>Restructured 5.1–5.8; expanded exceptions; central systems.</td></tr>
+      <tr><td>6. Piping</td><td>III</td><td>Mostly organizational.</td></tr>
+      <tr><td>7. Design flows</td><td>IV</td><td>Multi-family / Table 4 overhaul; monitoring 2,000–10,000 GPD.</td></tr>
+      <tr><td>8. Septic tanks and GITs</td><td>V</td><td>Tanks in series; Table 5 row above 15 bedrooms; IAPMO/ANSI.</td></tr>
+      <tr><td>9. Effluent distribution and pump systems</td><td>VI</td><td>Air injection / rejuvenation moved to § 11.</td></tr>
+      <tr><td>10. Percolation tests</td><td>VII</td><td>Subsection structure.</td></tr>
+      <tr><td>11. Leaching systems</td><td>VIII</td><td>Select fill, high-ELA restriction removed, Soil Air / EarthBuster / Terra-Lift.</td></tr>
+      <tr><td>12. Leaching system sizing</td><td>VIII(F)</td><td>New dedicated section.</td></tr>
+      <tr><td>13. MLSS</td><td>Appendix A</td><td>Moved into the main body.</td></tr>
+      <tr><td>14. Nitrogen</td><td>—</td><td>New.</td></tr>
+      <tr><td>15. Groundwater and surface water drainage</td><td>IX</td><td>Minor reorganization.</td></tr>
+      <tr><td>16. Water treatment wastewater</td><td>X</td><td>Tied to new 19-13-B103g; 10,000 GPD cap.</td></tr>
+      <tr><td>17. Non-discharging toilets and systems</td><td>XI</td><td>Application process; holding-tank prohibitions; composting-toilet size.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Forms</h3>
+  <p>Forms #1 (Permit to Construct), #2/#2a (Site Investigation), #3 (Final Inspection Report), and #4 (Permit to Discharge) are <strong>removed from the Technical Standards PDF</strong>. They are posted on the EEP webpage as Word and Excel files so local health can edit and adapt them.</p>
+
+  <h3>Appendices (renumbered after MLSS left Appendix A)</h3>
+  <table>
+    <thead><tr><th>2026 appendix</th><th>Content</th></tr></thead>
+    <tbody>
+      <tr><td>A</td><td>Approved septic tank effluent filters</td></tr>
+      <tr><td>B</td><td>Approved filter fabric for covering stone aggregate</td></tr>
+      <tr><td>C</td><td>Approved non-concrete septic tanks — new product approvals: <strong>VPC</strong> and <strong>AK Industries</strong></td></tr>
+      <tr><td>D</td><td>Water treatment wastewater discharges to SSDSs</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- 8 -->
+<section class="page">
+  <h2>8. Official source documents</h2>
+  <p>Use these for design, review, and permitting. This briefing is a finding aid, not a code.</p>
+
+  <table>
+    <thead><tr><th>Document</th><th>Where</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Technical Standards for Subsurface Sewage Disposal Systems (effective September 1, 2026)</td>
+        <td>portal.ct.gov/dph → Environmental Engineering Program → Subsurface Sewage Disposal Systems</td>
+      </tr>
+      <tr>
+        <td>Summary of Changes 2024–2026 Technical Standards</td>
+        <td>Companion PDF on the same DPH page (DPH’s official change log)</td>
+      </tr>
+      <tr>
+        <td>EHS Circular Letter 2026-16 — Subsurface Sewage Regulations and Technical Standards Updates</td>
+        <td>Same DPH page; announces the revised regulations, Technical Standards, and forms</td>
+      </tr>
+      <tr>
+        <td>PHC §§ 19-13-B100a and 19-13-B103a–h (effective September 1, 2026)</td>
+        <td>Connecticut eRegs portal</td>
+      </tr>
+      <tr>
+        <td>Exception applications (off-site/easement; well separation distance) — revised 2026 e-forms</td>
+        <td>EEP exception and approval forms page</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>What to change first on a typical plan set</h3>
+  <div class="box">
+    <h4>Residential / accessory apartment</h4>
+    <ul>
+      <li>Confirm “multi-family” status if an ADU or second unit is on a central system.</li>
+      <li>Recalculate design flow (125 GPD/bedroom beyond 3) and Table 5 tank volume (225 gal, then 150 gal above 15 bedrooms).</li>
+      <li>Apply Section 12 ELA rules after the third bedroom; small community systems use multi-family ELA.</li>
+      <li>Cite MLSS by subsection (13.4.1–13.4.3), not old Category I–III.</li>
+    </ul>
+    <h4>Restaurant / banquet / rec facility</h4>
+    <ul>
+      <li>Rebuild Table 4 flows: 30 GPD for any food establishment; banquet 5 GPD/seat plus Table 7 adders; horse stables 50 GPD/stall; pickleball with tennis.</li>
+      <li>GITs in series at ≥ 2,000 GPD should be similar size.</li>
+    </ul>
+    <h4>5,000–10,000 GPD / nitrogen-sensitive sites</h4>
+    <ul>
+      <li>Confirm DPH large-system plan approval still applies through 10,000 GPD.</li>
+      <li>Run Section 14 nitrogen assessment (simplified vs. full model).</li>
+      <li>Meter each SSDS; do not rely on whole-building water use when multiple systems serve one building.</li>
+      <li>Select-fill sieve testing when the leaching system is entirely in select fill.</li>
+    </ul>
+  </div>
+
+  <h3>Limitations of this briefing</h3>
+  <ul>
+    <li>It covers the Technical Standards comparison (2024 vs. 2026). Parallel PHC regulation amendments (B100a, B103a–h, new B103g) took effect the same day and should be read with the Standards.</li>
+    <li>Proprietary product tables contain additional product-specific edits beyond the Eljen corrections listed here; check Section 11 of the 2026 PDF for the product you specify.</li>
+    <li>Separating-distance Table 1 special-provision footnotes should be taken from the official 2026 table, not reconstructed from this summary.</li>
+  </ul>
+
+  <p class="footer-note">
+    Unofficial comparison prepared September 10, 2026 from Connecticut DPH Environmental Engineering Program publications. Not issued by DPH. For questions: DPH.EnvironEng@ct.gov · portal.ct.gov/dph
+  </p>
+</section>
+
+</body>
+</html>
